@@ -7,6 +7,7 @@
         </nav>
         <hr />
         <div>{{ message }} </div>
+        <div> {{ $route.params.name }} </div>
     </div>
 
 </template>
