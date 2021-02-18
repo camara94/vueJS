@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>v-bind en VueJS</title>
+    </head>
+    <body>
+        <div id="app">
+            <div style="margin: 0 auto;">
+                <h1>Login</h1>
+                <table>
+                    <tr>
+                        <th>Username: </th> <td><input type="text" v-model="username" /></td>
+                    </tr>
+                    <tr>
+                        <th>Password: </th><td><input type="password" v-model="password"/></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2"><button @click="envoyer">Envoyer</button></th>
+                    </tr>
+                    <tr>
+                        <td v-if="username.length > 0">Username: {{ username }}</td>
+                        <td v-if="password.length > 0" >Password: {{ password }} </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script>
+            const app = new Vue({
+                el: "#app",
+                data: {
+                    username: '',
+                    password: ''
+                },
+                methods: {
+                    displayAlert(u, p) {
+                        alert("Username: " + u + "\nPassword: " + p);
+                    },
+                    envoyer() {
+                        this.displayAlert(this.username, this.password);
+                    }
+                }
+            })
+        </script>
+    </body>
+</html>
