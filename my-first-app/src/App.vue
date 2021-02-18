@@ -1,18 +1,22 @@
 <template>
+ <HomeLink message="Bonjour tout le monde" />
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import HomeLink from './components/HomeLink.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    HomeLink
   }
 }
 </script>
+
 
 <style>
 #app {
