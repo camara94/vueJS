@@ -50,3 +50,11 @@ Dans cette leçon, j'ai appris:
 * configurer des routes ;
 * utiliser  router-view  et  router-link  pour gérer le routage ;
 * utiliser le matching dynamique de route pour vos pages personnalisées.
+
+## Résumé Partie 2
+Dans cette partie du cours, j'ai découvert comment construire et configurer une application Vue avec Vue CLI. Je suis maintenant capable de :
+* créer et configurer une nouvelle application Vue à l'aide de Vue CLI ;
+* construire une application en l'architecturant avec des composants ;
+* ajouter et configurer Vue Router dans votre application ;
+* utiliser des hooks de cycle de vie pour déterminer quand votre code doit s'exécuter.
+J'ai franchi une étape importante dans mon cheminement vers la création d'applications Web robustes avec Vue.js ! Je suis maintenant prêt à passer à la pratique avec l'activité de cette partie ! Alors, prêt à relever le défi ? 😎
