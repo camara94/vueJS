@@ -43,3 +43,10 @@ Dans ce chapitre, j'ai appris à créer et à naviguer dans les composants !
 * créer des composants avec des composants monofichiers ;
 * utiliser des composants dans d'autres composants ;
 * transférer des données dans des composants avec les props.
+
+## Leçon 6
+Dans cette leçon, j'ai appris:
+* installer Vue Router sur votre application Vue CLI sans le mode history ;
+* configurer des routes ;
+* utiliser  router-view  et  router-link  pour gérer le routage ;
+* utiliser le matching dynamique de route pour vos pages personnalisées.
