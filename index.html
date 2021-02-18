@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon Premier App VueJS</title>
+    </head>
+    <body>
+        <div id="app">
+            <ol>
+                <li v-for="prod in produits">
+                    {{ prod.nom }}<br>
+                    {{ prod.designation }} <br>
+                    {{ prod.quantite }}<br>
+                    <img v-bind:src="img + prod.image" />
+                </li>
+            </ol>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> 
+        <script>
+            const app = new Vue({
+                el: "#app",
+                data: {
+                    img: "http://etablissementmanfaraetfils.com/",
+                    produits: [{
+                            id: "10",
+                            nom: "Samsung Glaxy A10S 32GB\/2GB RAM",
+                            disponible: "dispo",
+                            designation: "4LTE Octa core Processor 157.9 mm (6.2) HD+TF",
+                            description: "13MP + 2MP Dual Real Camera\/ 8MP front Camera",          
+                            prix: "1700000",
+                            quantite: "1",
+                            image: "images\/produit\/samsung-galaxy-a10s-4g-lte-dual-sim-32go-ram-2go-blue.jpg"
+                        },
+                        {
+                            id: "13",
+                            nom: "Nivea creme soft",
+                            disponible: "dispo",
+                            "designation": "200 ml",
+                            "description": "Cr\u00e8me de soin hydratante",
+                            "prix": "30000",
+                            "quantite": "90",
+                            "image": "images\/produit\/nivea-soft-creme-200ml.2000.jpg"
+                        }]   
+                }
+            })
+        </script>
+    </body>
+</html>
