@@ -29,3 +29,10 @@ Dans les chapitres précédents, j'ai découvert les principes fondamentaux de V
 3. Comment utiliser les valeurs calculées pour améliorer la gestion des données.
 4. Comment utiliser les directives pour résoudre des problèmes courants.
 5. Comment créer des fonctions réutilisables avec les méthodes.
+
+# Leçon 4
+Dans ce chapitre, j'ai appris :
+comment installer Vue CLI ;
+comment créer une nouvelle application Vue avec Vue CLI ;
+comment configurer une application Vue avec Vue CLI ;
+comment sont structurées les applications générées par Vue CLI.
