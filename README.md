@@ -21,3 +21,11 @@ J'acquis les compétences nécessaires pour utiliser les directives dans le but 
 * écouter des événements auxquels vous pouvez répondre ;
 * créer des fonctions JavaScript que Vue.js peut utiliser ;
 * configurer des formulaires pour que votre data store soit mis à jour au fur et à mesure que l'utilisateur interagit avec lui.
+
+## Résumé de la partie 1
+Dans les chapitres précédents, j'ai découvert les principes fondamentaux de Vue et appris :
+1. Comment instancier une nouvelle instance de Vue.
+2. Comment mettre en place et gérer un data store.
+3. Comment utiliser les valeurs calculées pour améliorer la gestion des données.
+4. Comment utiliser les directives pour résoudre des problèmes courants.
+5. Comment créer des fonctions réutilisables avec les méthodes.
