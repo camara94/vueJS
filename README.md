@@ -30,9 +30,16 @@ Dans les chapitres précédents, j'ai découvert les principes fondamentaux de V
 4. Comment utiliser les directives pour résoudre des problèmes courants.
 5. Comment créer des fonctions réutilisables avec les méthodes.
 
-# Leçon 4
+## Leçon 4
 Dans ce chapitre, j'ai appris :
 comment installer Vue CLI ;
 comment créer une nouvelle application Vue avec Vue CLI ;
 comment configurer une application Vue avec Vue CLI ;
 comment sont structurées les applications générées par Vue CLI.
+
+## Leçon 5
+Dans ce chapitre, j'ai appris à créer et à naviguer dans les composants !
+* identifier des composants sur une page web ;
+* créer des composants avec des composants monofichiers ;
+* utiliser des composants dans d'autres composants ;
+* transférer des données dans des composants avec les props.
